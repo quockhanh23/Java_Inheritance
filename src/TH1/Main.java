@@ -10,15 +10,6 @@ public class Main {
         System.out.println(square.getPerimeter());
 
 
-
-
-
-
-
-
-
-
-
     }
 }
 

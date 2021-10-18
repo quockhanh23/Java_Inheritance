@@ -23,13 +23,17 @@ public class Circle {
     public String getColor() {
         return color;
     }
+    public double getArea () {
+        return this.radius * this.radius * Math.PI;
+    }
 
     public void setColor(String color) {
         this.color = color;
     }
 
-    public double area(double radius) {
-        return radius * radius * Math.PI;
+
+    public double getPerimeter() {
+        return this.radius * 2 * Math.PI;
     }
 
     @Override
